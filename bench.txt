@@ -1,0 +1,31 @@
+?   	gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/cmd/fs_syncer	[no test files]
+2023/11/28 01:40:55 INFO detected new fs event "event name"=CREATE "event time"="2023-11-28 01:40:55" "os path"=test1.txt
+2023/11/28 01:40:55 INFO create successful path=/tmp/TestFsSyncer3927272763/002/test1.txt
+2023/11/28 01:40:55 INFO sync successful path=/tmp/TestFsSyncer3927272763/002/test1.txt "event name"=CREATE
+2023/11/28 01:40:55 INFO detected new fs event "event name"=WRITE "event time"="2023-11-28 01:40:55" "os path"=test1.txt
+2023/11/28 01:40:55 INFO successful sync files "source file path"=/tmp/TestFsSyncer3927272763/001/test1.txt "destination file path"=/tmp/TestFsSyncer3927272763/002/test1.txt
+2023/11/28 01:40:55 INFO sync successful path=/tmp/TestFsSyncer3927272763/002/test1.txt "event name"=WRITE
+2023/11/28 01:40:55 INFO detected new fs event "event name"=WRITE "event time"="2023-11-28 01:40:55" "os path"=test1.txt
+2023/11/28 01:40:56 INFO successful sync files "source file path"=/tmp/TestFsSyncer3927272763/001/test1.txt "destination file path"=/tmp/TestFsSyncer3927272763/002/test1.txt
+2023/11/28 01:40:56 INFO sync successful path=/tmp/TestFsSyncer3927272763/002/test1.txt "event name"=WRITE
+2023/11/28 01:40:56 INFO detected new fs event "event name"=CHANGE_ATTRIB "event time"="2023-11-28 01:40:56" "os path"=test1.txt
+2023/11/28 01:40:56 INFO change perm entity successful path=/tmp/TestFsSyncer3927272763/002/test1.txt "last entity perm"=-rw-rw-r-- "current entity perm"=-rwxrwxrwx
+2023/11/28 01:40:56 INFO sync successful path=/tmp/TestFsSyncer3927272763/002/test1.txt "event name"=CHANGE_ATTRIB
+2023/11/28 01:40:56 INFO detected new fs event "event name"=DELETE "event time"="2023-11-28 01:40:56" "os path"=test1.txt
+2023/11/28 01:40:56 INFO remove successful path=/tmp/TestFsSyncer3927272763/002/test1.txt
+2023/11/28 01:40:56 INFO sync successful path=/tmp/TestFsSyncer3927272763/002/test1.txt "event name"=DELETE
+PASS
+ok  	gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/app/fs-syncer	1.407s
+?   	gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/config	[no test files]
+?   	gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/constants	[no test files]
+PASS
+ok  	gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/dir-watcher	0.106s
+?   	gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/logger	[no test files]
+
+
+
+pkg: gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/utils
+
+BenchmarkCopyFileContent-4   	     276	  37672101 ns/op	     257 B/op	       6 allocs/op
+PASS
+ok  	gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/utils	14.850s
