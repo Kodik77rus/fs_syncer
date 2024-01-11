@@ -19,8 +19,8 @@ func InitConfig() *Config {
 		logLvl           string
 	)
 	flag.BoolVar(&stdoutLogEnable, "stdout-log-enable", false, "log to stdout")
-	flag.StringVar(&srcFolderPath, "src-folder-path", "", "path to source dir")
-	flag.StringVar(&outputFolderPath, "output-folder-path", "", "path to output folder")
+	flag.StringVar(&srcFolderPath, "src-folder-path", "./src", "path to source dir")
+	flag.StringVar(&outputFolderPath, "output-folder-path", "./out", "path to output folder")
 	flag.StringVar(&logFilePath, "log-file-path", "./fs-watcher.log", "path to log file")
 	flag.StringVar(&logLvl, "log-lvl", "debug", "app log lvl")
 	flag.Parse()

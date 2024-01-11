@@ -5,11 +5,11 @@ import (
 	"log/slog"
 	"os"
 
-	fs_syncer "gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/app/fs-syncer"
-	"gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/config"
-	dir_watcher "gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/dir-watcher"
-	"gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/logger"
-	"gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/utils"
+	fs_syncer "github.com/Kodik77rus/fs_syncer/internal/app/fs-syncer"
+	"github.com/Kodik77rus/fs_syncer/internal/pkg/config"
+	dir_watcher "github.com/Kodik77rus/fs_syncer/internal/pkg/dir-watcher"
+	"github.com/Kodik77rus/fs_syncer/internal/pkg/logger"
+	"github.com/Kodik77rus/fs_syncer/internal/pkg/utils"
 )
 
 func main() {

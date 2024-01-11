@@ -1,4 +1,4 @@
-module gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher
+module github.com/Kodik77rus/fs_syncer
 
 go 1.21.4
 

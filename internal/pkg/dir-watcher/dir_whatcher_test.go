@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/config"
-	"gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/constants"
-	"gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/utils"
+	"github.com/Kodik77rus/fs_syncer/internal/pkg/config"
+	"github.com/Kodik77rus/fs_syncer/internal/pkg/constants"
+	"github.com/Kodik77rus/fs_syncer/internal/pkg/utils"
 )
 
 func TestDirWatcher(t *testing.T) {

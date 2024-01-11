@@ -4,10 +4,10 @@ import (
 	"io/fs"
 	"log/slog"
 
-	"gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/config"
-	"gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/constants"
-	dir_watcher "gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/dir-watcher"
-	"gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/utils"
+	"github.com/Kodik77rus/fs_syncer/internal/pkg/config"
+	"github.com/Kodik77rus/fs_syncer/internal/pkg/constants"
+	dir_watcher "github.com/Kodik77rus/fs_syncer/internal/pkg/dir-watcher"
+	"github.com/Kodik77rus/fs_syncer/internal/pkg/utils"
 )
 
 type FsSyncer struct {

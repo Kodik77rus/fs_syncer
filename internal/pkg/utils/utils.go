@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/constants"
+	"github.com/Kodik77rus/fs_syncer/internal/pkg/constants"
 )
 
 func CheckOrCreateFile(filePath string) error {

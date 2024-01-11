@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"os"
 
-	"gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/config"
-	"gitlab.rebrainme.com/golang_users_repos/5266/fs-watcher/internal/pkg/utils"
+	"github.com/Kodik77rus/fs_syncer/internal/pkg/config"
+	"github.com/Kodik77rus/fs_syncer/internal/pkg/utils"
 )
 
 var logLvlMp map[string]slog.Level = map[string]slog.Level{
